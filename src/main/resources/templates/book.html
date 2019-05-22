@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title  th:text="${title}"></title>
+</head>
+<body>
+<h1 th:text="${title}"></h1>
+
+<table>
+<!--    <tr>
+        <th>Id</th>
+        <th>ISBN</th>
+        <th>Kategoria</th>
+        <th>Tytul</th>
+        <th>Opis</th>
+        <th>Autor</th>
+        <th>Wydawnictwo</th>
+        <th>Rok wydania</th>
+    </tr>-->
+
+    <tr>
+        <th>${Ksiazki.id}</th>
+        <th>${Ksiazki.ISBN}</th>
+        <th>${Ksiazki.kategoria}</th>
+        <th>${Ksiazki.tytul}</th>
+        <th>${Ksiazki.opis}</th>
+        <th>${Ksiazki.autor}</th>
+        <th>${Ksiazki.wydawnictwo}</th>
+        <th>${Ksiazki.rokWydania}</th>
+    </tr>
+<!--    <tr>
+        <th>${Book.id}</th>
+        <th>${Book.ISBN}</th>
+        <th>${Book.kategoria}</th>
+        <th>${Book.tytul}</th>
+        <th>${Book.opis}</th>
+        <th>${Book.autor}</th>
+        <th>${Book.wydawnictwo}</th>
+        <th>${Book.rokWydania}</th>
+</table>-->
+
+</body>
+</html>
